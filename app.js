@@ -32,9 +32,17 @@ var alaskaLiving = prompt('Did I live in Alaska?');
   }
   console.log('alaskaLiving',alaskaLiving);
 
+var goldMiner = prompt('Have I ever been a gold miner?');
+  if(goldMiner.trim().toLowerCase() == 'yes') {
+    alert('That\'s right! Talk about well rounded!');
+  } else {
+    alert('Yoda: \'Hope for you, there is none\'');
+  }
+  console.log('goldMiner', goldMiner);
 
 
-//
+
+
 // Your JS file contains a 'use strict' declaration at the top. Always.
 // Design a guessing game about you that involves FIVE yes/no questions. Be creative and fun and whimsical. Or not. It's up to you! It's your project!
 // The questions in the guessing game must require a mix of yes/no answers, and user input must accept either y/n or yes/no responses, with either .toUpperCase() or .toLowerCase() used to validate the user input and accommodate users entering all-caps YES/NO answers, too.

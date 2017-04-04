@@ -1,12 +1,63 @@
 * {
   font-weight: normal;
   list-style: none;
-  padding: 0px;
-  margin: 0px;
+  padding: 25px;
+
   display: block;
 }
 body {
-  background-color: blue;
+  background-color: #f78909;
+}
+
+title {
+  font-weight: bold;
+  font-size: 50px;
+  font-family: Garamond;
+  text-align: center;
+  margin: 10px;
+  padding: 25px;
+  border-top: 3px solid black;
+  margin-bottom: 0px;
+}
+
+img {
+  display: block;
+  margin: auto;
+  height: 500px;
+  width: 500px;
+
+}
+
+h1 {
+  font-size: 40px;
+  font-family: Garamond;
+  font-weight: bold;
+  text-align: center;
+}
+
+h2 {
+  font-size: 35px;
+  font-family: Garamond;
+  font-weight: bold;
+  text-align: center;
+}
+
+p {
+  font-size: 25px;
+  font-family: Garamond;
+  text-align: center;
+
+}
+
+footer {
+  font-size: 20px;
+  font-family: Garamond;
+  text-align: left;
+  font-weight: bold;
+  margin-top: 500px;
+  margin-right: 200px;
+  margin-bottom: 5px;
+  margin-left: 5px;
 }
 
 
