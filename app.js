@@ -40,10 +40,56 @@ var goldMiner = prompt('Have I ever been a gold miner?');
   }
   console.log('goldMiner', goldMiner);
 
+var correctAge = '27';
+var guessCorrect = true;
+
+var guessMyAge;
+  for(var guessNumber = 4; guessNumber > 0 && guessCorrect; guessNumber --) {
+    var guessMyAge = prompt('How old do you think I am? I\'ll give you four guesses!');
+
+  if(guessMyAge == correctAge){
+    alert('Yes! You guessed the correct age!');
+    guessCorrect = false;
+  } else if (guessNumber < correctAge) {
+    alert('I know I have a baby face, but I\'m not that young!');
+  } else (guessNumber > correctAge) {
+    alert('I\'m definitely not that old, dude!');
+  } else {
+    alert('Just keep guessing, just keep guessing..');
+    }
+  }
 
 
 
-// Your JS file contains a 'use strict' declaration at the top. Always.
-// Design a guessing game about you that involves FIVE yes/no questions. Be creative and fun and whimsical. Or not. It's up to you! It's your project!
-// The questions in the guessing game must require a mix of yes/no answers, and user input must accept either y/n or yes/no responses, with either .toUpperCase() or .toLowerCase() used to validate the user input and accommodate users entering all-caps YES/NO answers, too.
-// Useful and descriptive console.log() messages in the JS are well written and correctly displaying to the browser console for each question of the guessing game.
+
+
+// add a sixth question that takes numeric input by prompting a user to guess a number
+// then indicates to the user whether the guess is 'too high' or 'too low'
+// give the user four opportunities to get the correct answer
+// showcase your fancy programming skillz
+
+// add seventh question that has multiple correct answers
+// the multiple correct answer possibilities are stored in an array
+// ex: Can you guess a state that I have lived in besides Washington?
+// how will you structure your seventh question?
+// structure this question so that the user has 6 tries to get a single correct answer
+// if the user has used up those 6 tries OR gotten a correct answer
+// then display a message to the user indicating all of the possible correct answers
+
+
+// As a developer, I want to keep a tally of the total number of correct answers given by the user, and at the end of the game, tell the user how well they did with a personalized custom message that includes the number of correct answers and also addresses the user by name, e.g. "You got 4 out of 7 questions correct, Bobbi! Better luck next time."
+
+// var correctNumber = '12';
+// get prompt to run 4 times
+// var notDone = true;
+// var guess;
+// for (var guesses = 3; guesses > 0 && notDone; guesses--) {
+// guess = prompt('whats my favorite number?');
+// if (guess === correctNumber) {
+//  alert('you guessed the right number');
+// notDone = false;
+//   } else {
+// alert('guess again!');
+//  }
+// }
+//
