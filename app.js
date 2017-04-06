@@ -97,4 +97,4 @@ var userCorrect = false;
     alert('I didn\'t want you to know where I lived anyways, so there!');
   }
 
-alert('Great Job '+ whatsYourName + '!' + ' ' + 'You got' + ' ' + numCorrect + 'correct answers out of 7');
+alert('Great Job '+ whatsYourName + '!' + ' ' + 'You got' + ' ' + numCorrect + ' correct answers out of 7');
