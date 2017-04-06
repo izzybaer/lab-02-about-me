@@ -60,6 +60,38 @@ footer {
   margin-left: 5px;
 }
 
+h3 {
+  font-size: 30px;
+  font-family: Garamond;
+  font-weight: bold;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  content: "•";
+}
+
+
+ul li {
+  font-size: 25px;
+  font-family: Garamond;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 3px;
+
+}
+
+ol li {
+  font-size: 25px;
+  font-family: Garamond;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 3px;
+}
+
 
 
 /*Use CSS to style your page as you see fit, to the level of abilities in CSS that you currently have*/
