@@ -1,10 +1,9 @@
 * {
   font-weight: normal;
-  list-style: none;
   padding: 25px;
-
   display: block;
 }
+
 body {
   background-color: #f78909;
 }
@@ -25,7 +24,6 @@ img {
   margin: auto;
   height: 500px;
   width: 500px;
-
 }
 
 h1 {
@@ -46,7 +44,6 @@ p {
   font-size: 25px;
   font-family: Garamond;
   text-align: center;
-
 }
 
 footer {
@@ -67,23 +64,20 @@ h3 {
   text-align: center;
 }
 
-ul {
-  list-style: none;
-  content: "•";
-}
-
-
 ul li {
+  list-style: armenian;
+  list-style-position: inside;
   font-size: 25px;
   font-family: Garamond;
   text-align: center;
   margin-top: 0px;
   margin-bottom: 0px;
   padding: 3px;
-
 }
 
 ol li {
+  list-style: armenian;
+  list-style-position: inside;
   font-size: 25px;
   font-family: Garamond;
   text-align: center;
