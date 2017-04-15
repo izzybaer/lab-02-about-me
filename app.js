@@ -1,5 +1,5 @@
 'use strict';
-//I am going to move the variables to the top of the page
+
 var numCorrect = 0;
 var correctAge = 27;
 var guessCorrect = true;
@@ -7,8 +7,6 @@ var guessNumber;
 var statesILivedIn = ['Alaska','Maryland','Hawaii'];
 var userInput;
 var userCorrect = false;
-
-//This is the guess questions game
 
 var whatsYourName = prompt('Hi there! I\'m Izabella, Izzy for short. What\'s your name?');
 function question01(){
@@ -75,7 +73,7 @@ function question05() {
     console.log('goldMiner', goldMiner);
   }
 }
-//This is how old I am game
+
 function question06() {
   for(var attempts = 4; attempts > 0 && guessCorrect === true; attempts --) {
     guessNumber = prompt('How old do you think I am? I\'ll give you four guesses!');
@@ -93,7 +91,7 @@ function question06() {
     }
   }
 }
-//This is the state guessing game
+
 function question07() {
   for(var userAttempts = 0; userAttempts < 6 && userCorrect === false ; userAttempts++) {
 
@@ -111,7 +109,6 @@ function question07() {
         numCorrect++;
       }
     }
-
   }
 
   if(userCorrect === false) {
